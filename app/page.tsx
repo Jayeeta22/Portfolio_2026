@@ -63,7 +63,7 @@ export default function Home() {
                 src={profileImg}
                 alt="Profile photo"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 sizes="36px"
                 priority
               />
@@ -162,7 +162,7 @@ export default function Home() {
                     src={profileImg}
                     alt="Jayeeta Sadhukhan"
                     fill
-                    className="object-cover"
+                    className="object-cover object-top"
                     sizes="(max-width: 768px) 100vw, 512px"
                     priority
                   />
