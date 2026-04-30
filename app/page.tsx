@@ -112,9 +112,11 @@ export default function Home() {
               <p className="mt-4 max-w-xl text-base leading-7 text-zinc-700">
                 Building scalable, production-grade MERN applications with strong
                 focus on database optimization, API rate limiting, RBAC, and
-                dependable delivery. Currently owning development on a SaaS
-                platform serving <span className="font-semibold">2,500+</span> active
-                outlets and <span className="font-semibold">50,000+</span> active users.
+                dependable delivery. Now actively building AI document workflows
+                with RAG, vector search, and Azure OpenAI for production use
+                cases. Currently owning development on a SaaS platform serving{" "}
+                <span className="font-semibold">2,500+</span> active outlets and{" "}
+                <span className="font-semibold">50,000+</span> active users.
               </p>
 
               <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -174,7 +176,7 @@ export default function Home() {
                     "API rate limiting",
                     "RBAC",
                     "Team leadership",
-                    "AI-assisted workflows",
+                    "RAG + Azure OpenAI",
                   ].map((tag) => (
                     <span
                       key={tag}
@@ -207,7 +209,7 @@ export default function Home() {
         <section id="about" className="mx-auto max-w-6xl px-4 py-14">
           <SectionHeading
             title="About"
-            subtitle="Senior-level full-stack delivery with a strong systems mindset."
+            subtitle="Full-stack engineering with production ownership and applied GenAI delivery."
           />
 
           <div className="grid gap-6 md:grid-cols-3">
@@ -218,19 +220,23 @@ export default function Home() {
                 scalable, production-grade MERN stack applications. Currently
                 owning development on a SaaS platform serving 2,500+ active outlets
                 and 50,000+ active users, with hands-on experience in database
-                optimization, API rate limiting, RBAC, server deployment, and
-                team leadership.
+                optimization, API rate limiting, RBAC, and team leadership.
               </p>
               <p className="mt-4 text-sm leading-7 text-zinc-700">
-                Proficient in leveraging AI-assisted development workflows
-                (Claude, Cursor, and GitHub Copilot) to accelerate delivery,
-                automate debugging, and consistently write high-quality code.
+                Actively upskilling in Generative AI and agentic workflows with
+                hands-on implementation in RAG pipelines, vector search, Azure
+                OpenAI, and Azure Document Intelligence. Proficient in AI-assisted
+                development using Claude, Cursor, and GitHub Copilot.
               </p>
             </div>
 
             <div className="rounded-3xl border border-zinc-200 bg-white p-6">
               <h3 className="text-base font-semibold text-zinc-900">Focus</h3>
               <ul className="mt-3 space-y-3 text-sm text-zinc-700">
+                <li className="flex gap-3">
+                  <span className="mt-0.5 h-2 w-2 rounded-full bg-zinc-900" />
+                  <span>AI document intelligence with RAG and OCR pipelines</span>
+                </li>
                 <li className="flex gap-3">
                   <span className="mt-0.5 h-2 w-2 rounded-full bg-zinc-900" />
                   <span>Performance improvements through query planning</span>
@@ -241,9 +247,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="mt-0.5 h-2 w-2 rounded-full bg-zinc-900" />
-                  <span>
-                    Reliability under load (rate limiting + throttling)
-                  </span>
+                  <span>Reliability under load (rate limiting + throttling)</span>
                 </li>
               </ul>
             </div>
@@ -265,13 +269,14 @@ export default function Home() {
                 {[
                   "JavaScript (ES6+)",
                   "TypeScript",
+                  "HTML5",
+                  "CSS3",
                   "React.js",
                   "Next.js",
                   "Node.js",
                   "Express.js",
                   "Redux Toolkit",
                   "Tailwind CSS",
-                  "Bootstrap",
                   "Ant Design",
                 ].map((x) => (
                   <span
@@ -293,17 +298,15 @@ export default function Home() {
                   "MongoDB",
                   "Mongoose",
                   "PostgreSQL",
+                  "Azure AI Search (Vector Search)",
                   "RESTful APIs",
                   "GraphQL",
-                  "Postman",
                   "AWS EC2",
+                  "Azure Blob Storage",
                   "Nginx (deployment)",
                   "Vercel",
-                  "Git/GitHub/GitLab",
+                  "Git & GitHub",
                   "Linux/Ubuntu",
-                  "Razorpay",
-                  "Shiprocket API",
-                  "Hygraph CMS",
                 ].map((x) => (
                   <span
                     key={x}
@@ -316,19 +319,41 @@ export default function Home() {
             </div>
 
             <div className="rounded-3xl border border-zinc-200 bg-white p-6 lg:col-span-2">
+              <h3 className="text-base font-semibold text-zinc-900">AI / GenAI</h3>
+              <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  "Azure OpenAI",
+                  "Azure Document Intelligence",
+                  "RAG pipelines",
+                  "Vector embeddings",
+                  "Fine-tuning concepts",
+                  "AI-assisted development workflows",
+                ].map((x) => (
+                  <div
+                    key={x}
+                    className="flex items-start gap-3 rounded-2xl border border-zinc-200 bg-zinc-50 p-4"
+                  >
+                    <span className="mt-1.5 h-2 w-2 rounded-full bg-zinc-900" />
+                    <div className="text-sm font-semibold text-zinc-800">
+                      {x}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="rounded-3xl border border-zinc-200 bg-white p-6 lg:col-span-2">
               <h3 className="text-base font-semibold text-zinc-900">
                 System & Delivery Strengths
               </h3>
               <div className="mt-4 grid gap-3 sm:grid-cols-2">
                 {[
-                  "Data Structures & Algorithms",
-                  "System Design",
                   "RBAC",
                   "MVC",
                   "DB Query Optimization",
                   "API Rate Limiting",
-                  "Team planning & reviews",
-                  "AI-assisted debugging workflows",
+                  "System Design",
+                  "JIRA",
                 ].map((x) => (
                   <div
                     key={x}

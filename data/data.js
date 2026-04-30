@@ -5,11 +5,21 @@ import ceraphic from '../assets/projects/ceraphic.png'
 import greencare from '../assets/projects/greenhedge.png'
 import google from '../assets/projects/google.png'
 import taskManagement from '../assets/projects/Task Management.png'
+import docAi from '../assets/projects/DocAi.png'
 
 
 export const data=[
     {
         id:0,
+        title:"DocuWise AI",
+        image:docAi,
+        description: "Built a full-stack AI document intelligence platform with category-based uploads (Resume, Invoice, General), OCR extraction using Azure Document Intelligence, Azure Blob Storage-backed file management, and RAG-based chat using Azure OpenAI + Azure AI Search.",
+        technologies: "Node.js, Express, TypeScript, React, MongoDB, Azure OpenAI, Azure Document Intelligence, Azure Blob Storage, Azure AI Search",
+        github:"https://github.com/Jayeeta22/docuwise-ai-server",
+        live:"https://doclens-ai-client.vercel.app/",
+    },
+    {
+        id:1,
         title:"Task Management (Petpooja Tasks)",
         image:taskManagement,
         description: "Petpooja Tasks helps organizations manage daily work withstructured task assignment, SOP-based execution, and real-time tracking. It verifies completion using photos, videos, checklists, timestamps, and AI-based task review, improving accountability and replacing scattered coordination like WhatsApp.",
@@ -17,7 +27,7 @@ export const data=[
         live:"https://tasksdashboard.petpooja.com/",
     },
     {
-        id:1,
+        id:2,
         title:"eCommerce Website ",
         image:ceraphic,
         description: 'Ceraphic is an advanced eCommerce clothing platform offering secure Google 2.0 OAuth login, real-time logistics updates via WebSocket API, seamless payments with Razorpay, and convenient features like add-to-cart and wishlist. Enjoy a diverse catalog with user reviews and ratings for an enhanced shopping experience.',
@@ -26,7 +36,7 @@ export const data=[
         live:"https://ceraphic.in/",
     },
     {
-        id:2,
+        id:3,
         title:"Google Search Clone ",
         image:google,
         description: 'Created a Google Search Engine clone using Google Programmable Search Engine API to search for data and images. Implemented a fallback mechanism using the Heroku API to fetch data when no relevant search results are found. Integrated Extreme IP Lookup for live geo-location tracking of users. Ensure seamless and accurate search experiences with up-to-date information.',
@@ -35,7 +45,7 @@ export const data=[
         live:"https://google-search-next.vercel.app/",
     },
     {
-        id:3,
+        id:4,
         title:"Lawncare Website",
         image:greencare,
         description: 'GreenHedge Lawn Care offers eco-friendly treatments, seasonal packages, and custom landscaping designs. Easily book consultations to achieve a pristine, healthy lawn year-round.',
@@ -53,7 +63,7 @@ export const data=[
     //     live:"https://silver-fox-d506d8.netlify.app/",
     // },
     {
-        id:4,
+        id:5,
         title:"Laundry project",
         image:laundry,
         description: 'Laundry is your go-to solution for all laundry needs, offering the ability to add different types of clothes, choose various washing methods, and track your order. Enjoy easy scheduling and stay updated with delivery dates to ensure your items are clean and ready when you need them.',
